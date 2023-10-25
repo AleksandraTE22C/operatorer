@@ -58,5 +58,25 @@ public class uppgift1_operatorer {
             else{
                 System.out.println(fält[0]+ " är inte lika med " +fält[1]+ " eller " +fält[2]);
             }
+
+        System.out.println(" ");
+        System.out.println("Uppgift C");
+        System.out.println("Skriv ett heltal");
+        int x = tb.nextInt();
+        int y=x;
+
+        x+=7;
+        x*=2;
+        x-=6;
+        x/=2;
+        x+=3;
+        x-=y;
+
+        if(x==7){
+            System.out.println("Om man adderar "+y+" med 7, multiplicerar det med 2, subtraherar med 6, dividerar med 2, adderar med 3 och subtraherar med det ursprungliga värdet blir svaret 7");
+        }
+            else{
+                System.out.println("Talet blir inte lika med 7");
+            }
     }
 }
